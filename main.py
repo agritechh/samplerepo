@@ -63,4 +63,4 @@ def generate_verification_code():
     return ''.join(random.choices( string.digits, k=6))
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
