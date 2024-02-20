@@ -2,8 +2,6 @@ from flask import Flask, render_template, request, jsonify
 from flask_mail import Mail, Message
 import random
 import string
-import mysql.connector
-from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__, template_folder='.', static_folder='static')
 
